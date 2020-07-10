@@ -1,5 +1,5 @@
 <?php
-class produtoController extends controller {
+class produtoController extends controllerGeral {
 
 	public function index() {
 
