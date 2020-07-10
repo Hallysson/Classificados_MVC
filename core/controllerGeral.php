@@ -1,5 +1,5 @@
 <?php
-class controller {
+class controllerGeral {
 
 	public function loadView($viewName, $viewData = array()) {
 		extract($viewData);

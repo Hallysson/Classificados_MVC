@@ -1,5 +1,5 @@
 <?php
-class Usuarios extends model {
+class Usuarios extends modelGeral {
 
 	public function getTotalUsuarios() {
 		$sql = $this->db->query("SELECT COUNT(*) as c FROM classificados_mvc.usuarios");

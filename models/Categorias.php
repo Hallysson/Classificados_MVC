@@ -1,5 +1,5 @@
 <?php
-class Categorias extends model {
+class Categorias extends modelGeral {
 
 	public function getLista() {
 		$array = array();

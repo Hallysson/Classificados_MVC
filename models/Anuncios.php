@@ -1,5 +1,5 @@
 <?php
-class Anuncios extends model {
+class Anuncios extends modelGeral {
 
 	public function getTotalAnuncios($filtros) {
 		$filtrostring = array('1=1');
